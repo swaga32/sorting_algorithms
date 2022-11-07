@@ -60,7 +60,6 @@ void rec_merge(int *array, int *sortArr, size_t l, size_t r)
 	for (i = l; i < r; i++)
 		array[i] = sortArr[i];
 }
-
 /**
  * merge_sort - sorts mergly
  * @array: array sort
